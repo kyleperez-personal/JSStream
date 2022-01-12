@@ -1,0 +1,29 @@
+body {
+	background-color: black;
+}
+div.Terminal {
+	width: 100vw;
+	height: 90vh;
+	position: absolute;
+	top: 0vh;
+	left: 5vw;
+	text-align: left;
+	color: black;
+	overflow-y: auto;/*Should allow Scrolling*/
+	z-index: 0;
+}
+input.Input {
+	width: 25vw;
+	height: 3vh;
+	position: absolute;
+	top: 91vh;
+	left: 20vw;
+	text-align: left;
+	color: grey;
+	z-index: 0;
+}
+div.Stream {
+	font-size: 5vh;
+	color: white;
+	z-index: 0;
+}
